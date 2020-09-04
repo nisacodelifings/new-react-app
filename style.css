@@ -1,13 +1,20 @@
 body { 
-      box-sizing: border-box;
-      font-family: 'Cousine', monospace;
+    margin: 0;
+    font-family: 'Cousine', monospace;
 }
 header{
-    padding: 20px;
-    background: #20262A;
-    color: #33393F;
+    height: 100px;
+    background-color: #333;
+    color: whitesmoke;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 main{
-    text-align: justify;
-    letter-spacing: 0.5px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
 }
